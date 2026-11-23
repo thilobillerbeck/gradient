@@ -7,7 +7,7 @@
 use std::sync::OnceLock;
 use std::time::Duration;
 
-pub const DEFAULT_TIMEOUT: Duration = Duration::from_secs(30);
+pub const DEFAULT_TIMEOUT: Duration = Duration::from_secs(240);
 
 const DOWNLOAD_MAX_REDIRECTS: usize = 5;
 
